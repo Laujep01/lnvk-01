@@ -1,0 +1,28 @@
+/* {} shift+option+8 og 9 */
+/* {} Alt Gr+7 og 0 */
+/* {} shift+Alt+7 og 0 */
+
+* {
+    box-sizing: border-box; /* Afhjælper udfordringer ved elementer med en bredde på 100% + padding og border */
+    margin: 0;
+}
+body {
+    background-color: lightsalmon;
+}
+header {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%; /* Sikrer, at billeder ikke bliver større end deres oprindelige format*/ 
+}
+/* Elementer med class="logo" */
+.logo {
+    width: 100px; /* Tilpasning af størrelse på "logo" */
+} 
+/* Billed-elementer, der er i et element med class="gallery" */
+.gallery img {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
